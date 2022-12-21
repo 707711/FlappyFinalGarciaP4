@@ -10,6 +10,8 @@ public class Bird : MonoBehaviour
     private Animator anim;  //reference to the animator component
     private Rigidbody2D rb2d;  //Holds a reference to the Rigidbody2D component of the bird
 
+    private AudioSource flapSoundEffect;
+
     // Start is called before the first frame update
     void Start()
 
